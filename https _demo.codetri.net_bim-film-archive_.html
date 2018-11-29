@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home | Bricks in Motion Film Directory Archive</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:500,700|Montserrat:400,400i,700">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='css/style-index.css'>
+</head>
+
+<body class="home"><header>
+  <img class="site-logo" alt="Bricks in Motion logo" width="150" src="site-images/logo.png">
+  <h1 class="bim-title">Bricks in<br><span>Motion</span></h1>
+  <h1 class="archive-title">Film Directory Archive</h1>
+</header>
+
+<!--
+Display
+film title
+film director
+film release date
+
+Order by
+film release date
+
+Filter by
+film title
+-->
+
+<main>
+  <nav>
+  <a href="index.php">Home</a>
+  <a href="search.php">Search</a>
+  <a href="#">Submit</a>
+</nav>
+
+  <section>
+    <p>Welcome to the <a href="#">Bricks in Motion</a> film directory archive! Here, you will find an archive of all the films submitted to our former directory. Feel free to explore our collection!</p>
+    <p>Is there a specific film you're wanting? <a href="search.php">Search for it</a>!</p>
+  </section>
+
+  <section>
+   <h2>View films by year</h2>
+    <div class="area-filter-year">
+  <span class='btn-filter-year' data-year='1900'>Unknown</span><span class='btn-filter-year' data-year='1989'>1989</span><span class='btn-filter-year' data-year='1990'>1990</span><span class='btn-filter-year' data-year='2000'>2000</span><span class='btn-filter-year' data-year='2001'>2001</span><span class='btn-filter-year' data-year='2002'>2002</span><span class='btn-filter-year' data-year='2003'>2003</span><span class='btn-filter-year' data-year='2004'>2004</span><span class='btn-filter-year' data-year='2005'>2005</span><span class='btn-filter-year' data-year='2006'>2006</span><span class='btn-filter-year' data-year='2007'>2007</span><span class='btn-filter-year' data-year='2008'>2008</span><span class='btn-filter-year' data-year='2009'>2009</span><span class='btn-filter-year' data-year='2010'>2010</span><span class='btn-filter-year' data-year='2011'>2011</span><span class='btn-filter-year' data-year='2012'>2012</span><span class='btn-filter-year' data-year='2013'>2013</span><span class='btn-filter-year' data-year='2014'>2014</span><span class='btn-filter-year' data-year='2015'>2015</span><span class='btn-filter-year' data-year='2016'>2016</span><span class='btn-filter-year' data-year='2017'>2017</span><span class='btn-filter-year' data-year='2018'>2018</span>  </div>
+  </section>
+
+  <section class="area-film-list">
+    <h2 class="film-year"></h2>
+    <div></div>
+  </section>
+</main>
+
+<footer>
+  <div>&copy; 2008 &mdash; 2018 <a href="http://bricksinmotion.com">Bricks in Motion</a>. All works copyrighted by their respective creators.</div>
+  <div>LEGO is a trademark of the LEGO Group, which does not sponsor, authorize or endorse this web site.</div>
+  <div><a href="http://www.bricksinmotion.com/forums/topic/25304/bricks-in-motion-staff-list/">Site Credits</a> | <a href="http://www.bricksinmotion.com/forums/topic/25303/bricks-in-motion-privacy-policy/">Privacy Policy</a></div>
+</footer>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch,Element.prototype.matches"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
